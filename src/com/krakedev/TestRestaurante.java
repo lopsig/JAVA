@@ -9,11 +9,11 @@ public class TestRestaurante {
         //MODIFICACION ATRIBUTOS
         rest1.nombre = "Chulla Restaurante";
         rest1.direccion = "Calle La Ronda N° 456, Centro Histórico, Quito";
-        rest1.calificacion = "4.9";
+        rest1.calificacion = 4.9f;
 
         rest2.nombre = "La Casa del Bolón";
         rest2.direccion = "Mariscal Sucre y Canelo, Quito";
-        rest2.calificacion = "4.7";
+        rest2.calificacion = 4.7f;
 
         //IMPRESION EN CONSOLA
         System.out.println("******* Restaurante 1 *******");

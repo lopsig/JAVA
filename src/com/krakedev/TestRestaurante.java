@@ -6,6 +6,13 @@ public class TestRestaurante {
         Restaurante rest1 =  new Restaurante();
         Restaurante rest2 =  new Restaurante();
 
+        // IMPRESION EN CONSOLA DE VALORES POR DEFECTO
+        System.out.println("******* VALORES POR DEFECTO *******");
+        System.out.println("Nombre: " + rest1.nombre);
+        System.out.println("Dirección: " + rest1.direccion);
+        System.out.println("Calificación: " + rest1.calificacion);
+        System.out.println("///////////////////////////////////////////////////");
+
         //MODIFICACION ATRIBUTOS
         rest1.nombre = "Chulla Restaurante";
         rest1.direccion = "Calle La Ronda N° 456, Centro Histórico, Quito";
@@ -15,7 +22,7 @@ public class TestRestaurante {
         rest2.direccion = "Mariscal Sucre y Canelo, Quito";
         rest2.calificacion = 4.7;
 
-        //IMPRESION EN CONSOLA
+        //IMPRESION EN CONSOLA DE VALORES MODIFICADOS
         System.out.println("******* Restaurante 1 *******");
         System.out.println("Nombre: " + rest1.nombre);
         System.out.println("Dirección: " + rest1.direccion);

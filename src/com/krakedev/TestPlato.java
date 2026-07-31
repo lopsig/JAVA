@@ -7,6 +7,14 @@ public class TestPlato {
         Plato platoB = new Plato();
         Plato platoC = new Plato();
 
+        // IMPRESION EN CONSOLA DE VALORES POR DEFECTO
+        System.out.println("******* VALORES POR DEFECTO *******");
+        System.out.println("Nombre: " + platoA.nombre);
+        System.out.println("Tipo: " + platoA.tipo);
+        System.out.println("Precio: " + platoA.precio);
+        System.out.println("Disponible: " + platoA.disponible);
+        System.out.println("///////////////////////////////////////////////////");
+
         //MODIFICACION ATRIBUTOS
         platoA.nombre = "Tigrillo Completo";
         platoA.tipo = "Plato Fuerte";

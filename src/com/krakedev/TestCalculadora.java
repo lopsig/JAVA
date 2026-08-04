@@ -11,6 +11,9 @@ public class TestCalculadora {
         double r3;
         double r4;
         double r5;
+        double r6;
+        double r7;
+
 
 
         //INVOCACION DE METODOS
@@ -36,6 +39,13 @@ public class TestCalculadora {
 
         //METODO RESULTADO
         c1.mostrarResultado();
+
+        //METODO DESCONTAR
+        r6 = c1.descontar(100, 10);
+        System.out.println("Precio descontado: " + r6);
+
+        r7 = c1.descontar(350, 20);
+        System.out.println("Segundo Precio descontado: " + r7);
 
 
     }

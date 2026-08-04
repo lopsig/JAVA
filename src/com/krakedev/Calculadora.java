@@ -41,6 +41,14 @@ public class Calculadora {
         return promedio;
     }
 
+    //FUNCION DESCONTAR
+    public double descontar (double precioSinDescuento, double porcentajeDescuento){
+        double descuento;
+        descuento = (precioSinDescuento - (precioSinDescuento * (porcentajeDescuento/100)));
+        return descuento;
+    }
+
+
     // FUNCION RESULTADO
     public void mostrarResultado () {
         System.out.println("Ahorita no joven, salí al almuerzo. Regreso en 15 minutos");

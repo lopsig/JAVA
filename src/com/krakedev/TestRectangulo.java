@@ -7,15 +7,15 @@ public class TestRectangulo {
         Rectangulo r2 = new Rectangulo();
 
         //ATRIBUTOS
-        r1.altura = 7;
-        r1.base = 3;
-        r2.altura = 12;
-        r2.base = 4;
+        r1.setAltura(7);
+        r1.setBase(3);
+        r2.setAltura(12);
+        r2.setBase(4);
 
 
         //VARIABLES
-        int resultadoArea;
-        int resultadoArea2;
+        double resultadoArea;
+        double resultadoArea2;
         double resultadoPerimetro;
         double resultadoPerimetro2;
 

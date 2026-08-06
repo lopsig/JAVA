@@ -2,19 +2,33 @@ package com.krakedev;
 
 public class Rectangulo {
     //ATRIBUTOS
-    public int base;
-    public int altura;
+    private double base;
+    private double altura;
+
+    //GETTERS-SETTERS
+    public double getBase() {
+        return base;
+    }
+    public void setBase(double base) {
+        this.base = base;
+    }
+    public double getAltura() {
+        return altura;
+    }
+    public void setAltura(double altura) {
+        this.altura = altura;
+    }
 
     //METODOS
     //AREA
-    public int calcularArea () {
-        int area = base * altura;
+    public double calcularArea () {
+        double area = getBase() * getAltura();
         return area;
     }
 
     //PERIMETRO
     public double calcularPerimetro () {
-        double perimetro = (2*base) + (2*altura);
+        double perimetro = (2*getBase()) + (2*getAltura());
         return perimetro;
     }
 

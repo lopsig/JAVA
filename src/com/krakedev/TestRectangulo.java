@@ -3,14 +3,17 @@ package com.krakedev;
 public class TestRectangulo {
     public static void main(String[] args) {
         //INSTANCIAS
-        Rectangulo r1 = new Rectangulo();
-        Rectangulo r2 = new Rectangulo();
+        //APLICANDO CONSTRUCTORES
+        Rectangulo r1 = new Rectangulo(7,3);
+        Rectangulo r2 = new Rectangulo(12,4);
 
         //ATRIBUTOS
+/*
         r1.setAltura(7);
         r1.setBase(3);
         r2.setAltura(12);
         r2.setBase(4);
+*/
 
 
         //VARIABLES

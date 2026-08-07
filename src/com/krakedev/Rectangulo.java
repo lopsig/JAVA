@@ -5,6 +5,12 @@ public class Rectangulo {
     private double base;
     private double altura;
 
+    //CONSTRUCTOR
+    public Rectangulo(double base, double altura) {
+        this.base = base;
+        this.altura = altura;
+    }
+
     //GETTERS-SETTERS
     public double getBase() {
         return base;

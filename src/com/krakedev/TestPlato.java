@@ -3,9 +3,25 @@ package com.krakedev;
 public class TestPlato {
     public static void main(String[] args) {
         //INSTANCIAS
-        Plato platoA = new Plato();
-        Plato platoB = new Plato();
-        Plato platoC = new Plato();
+        //APLICANDO CONSTRUCTORES
+        Plato platoA = new Plato(
+                "Tigrillo Completo",
+                "Plato Fuerte",
+                5.50,
+                true
+        );
+        Plato platoB = new Plato(
+                "Morocho",
+                "Entrada",
+                3,
+                true
+        );
+        Plato platoC = new Plato(
+                "Pristiños",
+                "Postre",
+                2.5,
+                false
+        );
 
         // IMPRESION EN CONSOLA DE VALORES POR DEFECTO
         System.out.println("******* VALORES POR DEFECTO *******");
@@ -16,7 +32,7 @@ public class TestPlato {
         System.out.println("///////////////////////////////////////////////////");
 
         //MODIFICACION ATRIBUTOS
-        platoA.setNombre("Tigrillo Completo");
+/*        platoA.setNombre("Tigrillo Completo");
         platoA.setTipo("Plato Fuerte");
         platoA.setPrecio(5.50);
         platoA.setDisponible(true);
@@ -29,7 +45,7 @@ public class TestPlato {
         platoC.setNombre("Pristiños");
         platoC.setTipo("Postre");
         platoC.setPrecio(2.5);
-        platoC.setDisponible(false);
+        platoC.setDisponible(false);*/
 
         //IMPRESION EN CONSOLA
         System.out.println("******* Plato A *******");

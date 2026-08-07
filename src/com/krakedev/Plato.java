@@ -7,6 +7,14 @@ public class Plato {
     private double precio;
     private boolean disponible;
 
+    //CONSTRUCTOR
+    public Plato(String nombre, String tipo, double precio, boolean disponible) {
+        this.nombre = nombre;
+        this.tipo = tipo;
+        this.precio = precio;
+        this.disponible = disponible;
+    }
+
     //GETTERS
     public String getNombre() {
         return nombre;

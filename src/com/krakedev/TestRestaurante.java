@@ -3,8 +3,17 @@ package com.krakedev;
 public class TestRestaurante {
     public static void main(String[] args) {
         //INSTANCIAS
-        Restaurante rest1 =  new Restaurante();
-        Restaurante rest2 =  new Restaurante();
+        //APLICANDO CONSTRUCTORES
+        Restaurante rest1 =  new Restaurante(
+                "Chulla Restaurante",
+                "Calle La Ronda N° 456, Centro Histórico, Quito",
+                4.9
+        );
+        Restaurante rest2 =  new Restaurante(
+                "La Casa del Bolón",
+                "Mariscal Sucre y Canelo, Quito",
+                4.8
+        );
 
         // IMPRESION EN CONSOLA DE VALORES POR DEFECTO
         System.out.println("******* VALORES POR DEFECTO *******");
@@ -14,13 +23,13 @@ public class TestRestaurante {
         System.out.println("///////////////////////////////////////////////////");
 
         //MODIFICACION ATRIBUTOS
-        rest1.setNombre("Chulla Restaurante");
+/*        rest1.setNombre("Chulla Restaurante");
         rest1.setDireccion("Calle La Ronda N° 456, Centro Histórico, Quito");
         rest1.setCalificacion(4.9);
 
         rest2.setNombre("La Casa del Bolón");
         rest2.setDireccion("Mariscal Sucre y Canelo, Quito");
-        rest2.setCalificacion(4.7);
+        rest2.setCalificacion(4.7);*/
 
         //IMPRESION EN CONSOLA DE VALORES MODIFICADOS
         System.out.println("******* Restaurante 1 *******");

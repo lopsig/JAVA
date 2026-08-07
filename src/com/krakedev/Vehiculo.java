@@ -5,6 +5,20 @@ public class Vehiculo {
     private String modelo;
     private int anio;
 
+    //CONSTRUCTORES
+    public Vehiculo () {
+    }
+
+    public Vehiculo ( String marca) {
+        this.marca = marca;
+    }
+
+    public Vehiculo ( String marca,String modelo, int anio) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.anio = anio;
+    }
+
     public String getMarca() {
         return marca;
     }

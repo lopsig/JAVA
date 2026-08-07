@@ -31,5 +31,19 @@ public class VehiculoTest {
 
 
 
+        System.out.println("*********Vehiculo 3:**********");
+        Vehiculo v3 = new Vehiculo("KIA");
+        System.out.println("Año: " + v3.getAnio());
+        System.out.println("Marca: " + v3.getMarca());
+        System.out.println("Modelo: " + v3.getModelo());
+
+        System.out.println("*********Vehiculo 4:**********");
+        Vehiculo v4 = new Vehiculo("KIA", "Pikanto", 2025);
+        System.out.println("Año: " + v4.getAnio());
+        System.out.println("Marca: " + v4.getMarca());
+        System.out.println("Modelo: " + v4.getModelo());
+
+
+
     }
 }
